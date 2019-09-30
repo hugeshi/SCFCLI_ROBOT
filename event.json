@@ -1,0 +1,40 @@
+{
+  "Records": [
+    {
+      "cos": {
+        "cosSchemaVersion": "1.0", 
+        "cosObject": {
+          "url": "http://testpic-1253970026.cos.ap-guangzhou.myqcloud.com/testfile", 
+          "meta": {
+            "Content-Type": "", 
+            "x-cos-request-id": "NWMxOWY4MGFfMjViMjU4NjRfMTUyMV8yNzhhZjM="
+          }, 
+          "key": "/1253970026/testpic/testfile", 
+          "vid": "", 
+          "size": 1029
+        }, 
+        "cosBucket": {
+          "region": "gz", 
+          "name": "testpic", 
+          "appid": "1253970026"
+        }, 
+        "cosNotificationId": "unkown"
+      }, 
+      "event": {
+        "eventVersion": "1.0", 
+        "eventTime": 1545205770, 
+        "requestParameters": {
+          "requestSourceIP": "59.37.125.38", 
+          "requestHeaders": {
+            "Authorization": "q-sign-algorithm=sha1&q-ak=AKIDQm6iUh2NJ6jL41tVUis9KpY5Rgv49zyC&q-sign-time=1545205709;1545215769&q-key-time=1545205709;1545215769&q-header-list=host;x-cos-storage-class&q-url-param-list=&q-signature=098ac7dfe9cf21116f946c4b4c29001c2b449b14"
+          }
+        }, 
+        "eventName": "cos:ObjectCreated:Post", 
+        "reqid": 179398952, 
+        "eventSource": "qcs::cos", 
+        "eventQueue": "qcs:0:lambda:cd:appid/1253970026:default.printevent.$LATEST", 
+        "reservedInfo": ""
+      }
+    }
+  ]
+}
